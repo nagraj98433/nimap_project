@@ -1,0 +1,12 @@
+.grid-container_cast {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  /* background-color: #2196f3; */
+  padding: 10px;
+}
+
+.grid-item_cast {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  padding: 0 5px;
+  text-align: center;
+}

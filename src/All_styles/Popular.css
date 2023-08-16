@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  /* background-color: #2196f3; */
+  padding: 10px;
+}
+
+.grid-item {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+.movie_card_img_container {
+  width: 100%;
+  height: 100%;
+}
+.movie_card_img_container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+.movie_card_content_container {
+  display: flex;
+  justify-content: center;
+}
+.movie_detail {
+  width: 200px;
+  line-height: 1;
+}
+
+/* media queries start */
+@media screen and (min-width: 200px) and (max-width: 300px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+  .grid-container {
+    padding: 0;
+  }
+  .movie_card_img_container {
+    width: 100%;
+    height: 81%;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+  .grid-container {
+    padding: 0;
+  }
+  .movie_card_img_container {
+    width: 100%;
+    height: 81%;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 576px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+  .grid-container {
+    padding: 0;
+  }
+  .movie_card_img_container {
+    width: 100%;
+    height: 81%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 630px) {
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+  .grid-container {
+    padding: 0;
+  }
+  .movie_card_img_container {
+    width: 100%;
+    height: 430px;
+  }
+}
+
+@media screen and (min-width: 630px) and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+  .grid-container {
+    padding: 0;
+  }
+  .movie_card_img_container {
+    width: 100%;
+    height: 380px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+  .grid-container {
+    padding: 0;
+  }
+  .movie_card_img_container {
+    width: 100%;
+    height: 380px;
+  }
+  .movie_card_img_container img {
+    width: 80%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 960px) and (max-width: 992px) {
+  .grid-container {
+    grid-template-columns: auto auto auto;
+  }
+  .grid-container {
+    padding: 0;
+  }
+  .movie_card_img_container {
+    width: 100%;
+    height: 380px;
+  }
+  .movie_card_img_container img {
+    width: 80%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: auto auto auto;
+  }
+  .grid-container {
+    padding: 0;
+  }
+  .movie_card_img_container {
+    width: 100%;
+    height: 380px;
+  }
+  .movie_card_img_container img {
+    width: 80%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .grid-container {
+    grid-template-columns: auto auto auto auto;
+  }
+  .grid-container {
+    padding: 0;
+  }
+  .movie_card_img_container {
+    width: 100%;
+    height: 340px;
+  }
+  .movie_card_img_container img {
+    width: 80%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+  .grid-container {
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .movie_card_img_container {
+    width: 80%;
+    height: 340px;
+  }
+  .movie_card_img_container img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+  .grid-container {
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .movie_card_img_container {
+    width: 80%;
+    height: 340px;
+  }
+  .movie_card_img_container img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 2200px) {
+  .grid-container {
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .movie_card_img_container {
+    width: 100%;
+    height: 430px;
+  }
+  .movie_card_img_container img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1800px) and (max-width: 2600px) {
+  .grid-container {
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .movie_card_img_container {
+    width: 100%;
+    height: 430px;
+  }
+  .movie_card_img_container img {
+    width: 100%;
+    height: 100%;
+  }
+}
